@@ -75,11 +75,17 @@ p {
 }
 
 #features {
-  padding: 5rem 3rem;
+  padding: 7% 15% 9%; /* Do not use rem here */
+  position: relative;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding: 1.5rem;
 }
 
 .feature-icon:hover {
-  box-shadow: 2px 2px 4px black ;
+  color: #ff4c68;
 }
 
 .feature-title {
@@ -99,7 +105,6 @@ p {
   padding: 6% 18%;
 }
 
-
 .testimonial-text {
   font-size: 3rem;
 }
@@ -110,10 +115,23 @@ p {
   padding: 2rem 0;
 }
 
+#press {
+  background-color: #ef8172;
+}
+
+.press-img {
+  width: 15%;
+  margin: 0 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
 .card {
   display: flex;
   margin: 15px 10px;
-  background-color: #0077B6;
+  background-color: #0077b6;
   height: 300px;
   padding: 50px;
   border-radius: 20px;
@@ -149,11 +167,11 @@ p {
     margin: 1rem 0.2rem;
   }
 
-  .man-container {
+  .iphone-container {
     margin-top: 2rem;
   }
 
-  .man-img {
+  .iphone-img {
     transform: rotate(0);
     position: static;
   }
@@ -215,6 +233,6 @@ p {
   font-size: 2.3rem;
 }
 
-.anmol {
-height: 100px;
-}
+/* .testimonial-backgr {
+    background-color: #00b4d8;
+  } */

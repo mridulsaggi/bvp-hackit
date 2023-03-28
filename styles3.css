@@ -1,0 +1,43 @@
+.api-heading {
+  text-align: center;
+  margin-top: 25px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.api-section {
+  text-align: center;
+  padding: 7%;
+}
+.card-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.api-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.card-para {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+}
+.readmore-btn:hover {
+  background-color: #10b1d1;
+}
+.card-body {
+  background-color: #90e0ef;
+}
+.card-body img {
+  height: 84px;
+  margin-bottom: 16px;
+}
+.readmore-btn a {
+  text-decoration: none;
+  color: white;
+}
+.card {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
