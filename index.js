@@ -11,6 +11,9 @@ app.get("/",(req,res)=>{
 app.get("/quiz",(req,res)=>{
     res.sendFile(path.join(__dirname,'quiz.html'));
 });
+app.get("/videolink",(req,res)=>{
+    res.sendFile(path.join(__dirname,'index3.html'));
+});
 app.listen(port,()=>{
     console.log("app running successfully on port %d",port);
 });
