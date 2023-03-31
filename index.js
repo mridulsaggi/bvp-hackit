@@ -8,10 +8,10 @@ app.use(express.static(path.join(__dirname)));
 app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname,'index.html'));
 });
-app.get("/quiz",(req,res)=>{
+app.get("bvp-hackit/quiz",(req,res)=>{
     res.sendFile(path.join(__dirname,'quiz.html'));
 });
-app.get("/videolink",(req,res)=>{
+app.get("bvp-hackit/videolink",(req,res)=>{
     res.sendFile(path.join(__dirname,'index3.html'));
 });
 app.listen(port,()=>{
